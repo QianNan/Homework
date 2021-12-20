@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="356fc65b-14bf-47ec-a929-c6c6742dba2a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Homework.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Driver/chromedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Universal/config/APIConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/apiService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/apiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/delayAPIDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/webui/baseClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/webui/uiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Universal/http/Http_Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Universal/http/Http_Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/api/apiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/apiService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,46 +180,50 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="348" y="342" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1280.777@0.23.1280.777" timestamp="1639892141054" />
-    <state width="1095" height="277" key="GridCell.Tab.0.bottom" timestamp="1639991479443">
+    <state width="1191" height="381" key="GridCell.Tab.0.bottom" timestamp="1639995159667">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1095" height="277" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1639991479443" />
-    <state width="1095" height="277" key="GridCell.Tab.0.center" timestamp="1639991479442">
+    <state width="1191" height="381" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1639995159667" />
+    <state width="1191" height="381" key="GridCell.Tab.0.center" timestamp="1639995159666">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1095" height="277" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1639991479442" />
-    <state width="1095" height="277" key="GridCell.Tab.0.left" timestamp="1639991479441">
+    <state width="1191" height="381" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1639995159666" />
+    <state width="1191" height="381" key="GridCell.Tab.0.left" timestamp="1639995159664">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1095" height="277" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1639991479441" />
-    <state width="1095" height="277" key="GridCell.Tab.0.right" timestamp="1639991479442">
+    <state width="1191" height="381" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1639995159664" />
+    <state width="1191" height="381" key="GridCell.Tab.0.right" timestamp="1639995159667">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1095" height="277" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1639991479442" />
-    <state width="1137" height="318" key="GridCell.Tab.1.bottom" timestamp="1639990815086">
+    <state width="1191" height="381" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1639995159667" />
+    <state width="1191" height="381" key="GridCell.Tab.1.bottom" timestamp="1639995159671">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1137" height="318" key="GridCell.Tab.1.bottom/0.23.1280.777@0.23.1280.777" timestamp="1639990815086" />
-    <state width="1137" height="318" key="GridCell.Tab.1.center" timestamp="1639990815085">
+    <state width="1191" height="381" key="GridCell.Tab.1.bottom/0.23.1280.777@0.23.1280.777" timestamp="1639995159671" />
+    <state width="1191" height="381" key="GridCell.Tab.1.center" timestamp="1639995159669">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1137" height="318" key="GridCell.Tab.1.center/0.23.1280.777@0.23.1280.777" timestamp="1639990815085" />
-    <state width="1137" height="318" key="GridCell.Tab.1.left" timestamp="1639990815085">
+    <state width="1191" height="381" key="GridCell.Tab.1.center/0.23.1280.777@0.23.1280.777" timestamp="1639995159669" />
+    <state width="1191" height="381" key="GridCell.Tab.1.left" timestamp="1639995159668">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1137" height="318" key="GridCell.Tab.1.left/0.23.1280.777@0.23.1280.777" timestamp="1639990815085" />
-    <state width="1137" height="318" key="GridCell.Tab.1.right" timestamp="1639990815086">
+    <state width="1191" height="381" key="GridCell.Tab.1.left/0.23.1280.777@0.23.1280.777" timestamp="1639995159668" />
+    <state width="1191" height="381" key="GridCell.Tab.1.right" timestamp="1639995159670">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1137" height="318" key="GridCell.Tab.1.right/0.23.1280.777@0.23.1280.777" timestamp="1639990815086" />
+    <state width="1191" height="381" key="GridCell.Tab.1.right/0.23.1280.777@0.23.1280.777" timestamp="1639995159670" />
     <state x="125" y="23" key="SettingsEditor" timestamp="1639902343334">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="125" y="23" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1639902343334" />
-    <state x="291" y="246" key="com.intellij.ide.util.TipDialog" timestamp="1639891570204">
+    <state width="616" height="388" key="XDebugger.FullValuePopup" timestamp="1639995039936">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="291" y="246" key="com.intellij.ide.util.TipDialog/0.23.1280.777@0.23.1280.777" timestamp="1639891570204" />
+    <state width="616" height="388" key="XDebugger.FullValuePopup/0.23.1280.777@0.23.1280.777" timestamp="1639995039936" />
+    <state x="291" y="246" key="com.intellij.ide.util.TipDialog" timestamp="1639992889374">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="291" y="246" key="com.intellij.ide.util.TipDialog/0.23.1280.777@0.23.1280.777" timestamp="1639992889374" />
     <state x="641" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1639964879570">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
@@ -244,11 +237,20 @@
           <line>37</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Universal/http/Http_Client.java</url>
+          <line>260</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="TestNG">
         <watch expression="searchResultEles.get(0)" language="JAVA" />
+        <watch expression="response" language="JAVA" />
+        <watch expression="response.content" language="JAVA" />
+        <watch expression="response" language="JAVA" />
+        <watch expression="response.content" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>

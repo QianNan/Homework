@@ -25,7 +25,7 @@ public class apiService {
        System.out.println("Current API:"+imageAPI);
        String response = Http_Client.send_Img_Get(imageAPI,null,null,null,null);
        System.out.println("Response :"+response);
-//      still don't receive the image even set Accept=img/png in header;
+
 
    }
 

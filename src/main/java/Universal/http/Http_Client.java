@@ -250,7 +250,7 @@ public class Http_Client {
             }
             CloseableHttpClient c = HttpClients.createDefault();
             HttpGet get = new HttpGet(urlNameString);
-            get.addHeader("Accept", "image/png") ;
+            get.addHeader("content-type", "image/png") ;
             token = tokenValue;
             HttpClientBuilder httpClientBuilder = HttpClientBuilder.create();
             if(cookieStore!=null){
@@ -259,15 +259,16 @@ public class Http_Client {
                 c = httpClientBuilder.build();
             }
             CloseableHttpResponse response = c.execute(get);
+            /*
+            HttpResponseProxy{HTTP/1.1 200 OK [Date: Mon, 20 Dec 2021 10:03:57 GMT,
+            Content-Type: image/png, Content-Length: 8090, Connection: keep-alive,
+             Server: gunicorn/19.9.0, Access-Control-Allow-Origin: *, Access-Control-Allow-Credentials: true]
+            ResponseEntityProxy{[Content-Type: image/png,Content-Length: 8090,Chunked: false]}}
+            */
             setCookieStore(response);
 
-            in = new BufferedReader(new InputStreamReader(response.getEntity().getContent()));
+//            sorry， don't know how to phrase it by java knowledge what I learned 🤣
 
-            char[] chars = new char[1024];
-            int len = 0;
-            while ((len = in.read(chars, 0, chars.length)) != -1) {
-                sb.append(chars, 0, len);
-            }
 
         } catch (Exception e) {
             System.out.println("发送GET请求出现异常！" + e);
