@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="CareVoiceSuite" parallel="methods" thread-count="1"
+       data-provider-thread-count="1"  verbose="2">
+
+
+<!--  parallel="methods" -->
+
+    <test name="CareVoice_Login">
+        <classes>
+
+            <!--            <parameters>-->
+            <!--                <parameter name="para1" value="test_para1"/>-->
+            <!--                <parameter name="para2" value="test_para2"/>-->
+            <!--            </parameters>-->
+
+            <class name="TestCase.LoginMgmt.LoginClass">
+                <methods>
+                    <include name="LoginTest"></include>
+                    <include name="LogoutTest"></include>
+<!--                    <include name="PINCodeOnboardingFirstTime"></include>-->
+<!--                    <include name="PINCodeOnboardingRepeat"></include>-->
+<!--                    <include name="PINCodOnboardingUnExpectedFlow"></include>-->
+
+                                        <include name="birthDayOnboardingFirstTime"></include>
+                                        <include name="birthDayOnboardingRepeat"></include>
+<!--                                        <include name="birthDayOnboardingUnExpectedFlow"></include>-->
+
+                    <include name="AAAA"></include>
+
+
+                </methods>
+            </class>
+        </classes>
+
+    </test>
+
+
+    <!--    <test name="CareVoice_Onboarding">-->
+
+    <!--        <classes>-->
+    <!--            <class name="com.nakedhub.autotester.wwapps.apiTestCase.eventMgmt.EventTest">-->
+    <!--                <methods>-->
+    <!--                    <include name="eventListTest"></include>-->
+    <!--                    <include name="eventDetailTest"></include>-->
+    <!--                    <include name="eventAttendAndCancelTest"></include>-->
+    <!--                    <include name="eventFilterCategoriesAndLocationsTest"></include>-->
+    <!--                    <include name="eventTop10Test"></include>-->
+    <!--                </methods>-->
+    <!--            </class>-->
+
+    <!--            <class name="com.nakedhub.autotester.wwapps.apiTestCase.bannerMgmt.BannerTest">-->
+    <!--                <methods>-->
+    <!--                    <include name="surveyBannerListTest"></include>-->
+    <!--                    <include name="surveyBannerCreateTest"></include>-->
+    <!--                    <include name="surveyBannerUpdateTest"></include>-->
+    <!--                    <include name="appBannerListTest"></include>-->
+    <!--                </methods>-->
+    <!--            </class>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter" />
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+    </listeners>
+
+<!--    <property>-->
+<!--        <name>userdefaultlisteners</name>-->
+<!--        <value>false</value>-->
+<!--    </property>-->
+</suite>
