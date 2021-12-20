@@ -4,6 +4,7 @@ import Universal.config.AdminConfig;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import okhttp3.*;
+import org.apache.commons.io.FileUtils;
 import org.apache.http.*;
 import org.apache.http.client.CookieStore;
 import org.apache.http.client.HttpClient;
@@ -237,7 +238,7 @@ public class Http_Client {
     }
 
     // 请求返回 image
-    public static String send_Img_Get(String url, String param, String tokenKey,String tokenValue, String timeZone) {
+    public static String downloadImg(String url, String param, String savePath) {
         StringBuilder sb = new StringBuilder();
         BufferedReader in = null;
         String urlNameString = "";
@@ -248,30 +249,28 @@ public class Http_Client {
                 urlNameString = url + "?" + param;
                 System.out.println(urlNameString);
             }
-            CloseableHttpClient c = HttpClients.createDefault();
+            CloseableHttpClient client = HttpClients.createDefault();
             HttpGet get = new HttpGet(urlNameString);
-            get.addHeader("content-type", "image/png") ;
-            token = tokenValue;
-            HttpClientBuilder httpClientBuilder = HttpClientBuilder.create();
-            if(cookieStore!=null){
-                c = httpClientBuilder.setDefaultCookieStore(cookieStore).build();
-            }else{
-                c = httpClientBuilder.build();
+//            HttpClientBuilder httpClientBuilder = HttpClientBuilder.create();
+//            if(cookieStore!=null){
+//                client = httpClientBuilder.setDefaultCookieStore(cookieStore).build();
+//            }else{
+//                c = httpClientBuilder.build();
+//            }
+            CloseableHttpResponse response = client.execute(get);
+
+            if (HttpStatus.SC_OK == response.getStatusLine().getStatusCode()) {
+                HttpEntity entity = response.getEntity();
+
+                InputStream inputStream = entity.getContent();
+
+                FileUtils.copyInputStreamToFile(inputStream, new File(savePath));
+                System.out.println("下载图片成功:" + url);
+
             }
-            CloseableHttpResponse response = c.execute(get);
-            /*
-            HttpResponseProxy{HTTP/1.1 200 OK [Date: Mon, 20 Dec 2021 10:03:57 GMT,
-            Content-Type: image/png, Content-Length: 8090, Connection: keep-alive,
-             Server: gunicorn/19.9.0, Access-Control-Allow-Origin: *, Access-Control-Allow-Credentials: true]
-            ResponseEntityProxy{[Content-Type: image/png,Content-Length: 8090,Chunked: false]}}
-            */
-            setCookieStore(response);
-
-//            sorry， don't know how to phrase it by java knowledge what I learned 🤣
-
 
         } catch (Exception e) {
-            System.out.println("发送GET请求出现异常！" + e);
+            System.out.println("下载图片出现异常！" + e);
             e.printStackTrace();
         }
         // 使用finally块来关闭输入流

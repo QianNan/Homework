@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Universal/http/Http_Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Universal/http/Http_Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/api/apiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/apiService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/api/apiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/apiTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,11 +47,29 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="TestNG.apiService.getImage">
+  <component name="RunManager" selected="TestNG.apiService.downloadImage">
     <configuration name="/Users/winkynan/Desktop/Homework/src/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Homework" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/testng.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="apiService.downloadImage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api" />
+      <option name="MAIN_CLASS_NAME" value="api.apiService" />
+      <option name="METHOD_NAME" value="downloadImage" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -111,31 +130,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="uiTest.topTabClick" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Homework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webui" />
-      <option name="MAIN_CLASS_NAME" value="webui.uiTest" />
-      <option name="METHOD_NAME" value="topTabClick" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.apiService.downloadImage" />
         <item itemvalue="TestNG.apiService.getImage" />
         <item itemvalue="TestNG./Users/winkynan/Desktop/Homework/src/testng.xml" />
         <item itemvalue="TestNG.uiTest.searchRelatedTest" />
         <item itemvalue="TestNG.uiTest.topMenuTest" />
-        <item itemvalue="TestNG.uiTest.topTabClick" />
       </list>
     </recent_temporary>
   </component>
@@ -180,54 +181,54 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="348" y="342" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1280.777@0.23.1280.777" timestamp="1639892141054" />
-    <state width="1191" height="381" key="GridCell.Tab.0.bottom" timestamp="1639995159667">
+    <state width="1191" height="230" key="GridCell.Tab.0.bottom" timestamp="1639998812233">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1191" height="381" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1639995159667" />
-    <state width="1191" height="381" key="GridCell.Tab.0.center" timestamp="1639995159666">
+    <state width="1191" height="230" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1639998812233" />
+    <state width="1191" height="230" key="GridCell.Tab.0.center" timestamp="1639998812231">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1191" height="381" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1639995159666" />
-    <state width="1191" height="381" key="GridCell.Tab.0.left" timestamp="1639995159664">
+    <state width="1191" height="230" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1639998812231" />
+    <state width="1191" height="230" key="GridCell.Tab.0.left" timestamp="1639998812231">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1191" height="381" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1639995159664" />
-    <state width="1191" height="381" key="GridCell.Tab.0.right" timestamp="1639995159667">
+    <state width="1191" height="230" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1639998812231" />
+    <state width="1191" height="230" key="GridCell.Tab.0.right" timestamp="1639998812232">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1191" height="381" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1639995159667" />
-    <state width="1191" height="381" key="GridCell.Tab.1.bottom" timestamp="1639995159671">
+    <state width="1191" height="230" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1639998812232" />
+    <state width="1191" height="291" key="GridCell.Tab.1.bottom" timestamp="1639998737511">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1191" height="381" key="GridCell.Tab.1.bottom/0.23.1280.777@0.23.1280.777" timestamp="1639995159671" />
-    <state width="1191" height="381" key="GridCell.Tab.1.center" timestamp="1639995159669">
+    <state width="1191" height="291" key="GridCell.Tab.1.bottom/0.23.1280.777@0.23.1280.777" timestamp="1639998737511" />
+    <state width="1191" height="291" key="GridCell.Tab.1.center" timestamp="1639998737509">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1191" height="381" key="GridCell.Tab.1.center/0.23.1280.777@0.23.1280.777" timestamp="1639995159669" />
-    <state width="1191" height="381" key="GridCell.Tab.1.left" timestamp="1639995159668">
+    <state width="1191" height="291" key="GridCell.Tab.1.center/0.23.1280.777@0.23.1280.777" timestamp="1639998737509" />
+    <state width="1191" height="291" key="GridCell.Tab.1.left" timestamp="1639998737509">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1191" height="381" key="GridCell.Tab.1.left/0.23.1280.777@0.23.1280.777" timestamp="1639995159668" />
-    <state width="1191" height="381" key="GridCell.Tab.1.right" timestamp="1639995159670">
+    <state width="1191" height="291" key="GridCell.Tab.1.left/0.23.1280.777@0.23.1280.777" timestamp="1639998737509" />
+    <state width="1191" height="291" key="GridCell.Tab.1.right" timestamp="1639998737510">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1191" height="381" key="GridCell.Tab.1.right/0.23.1280.777@0.23.1280.777" timestamp="1639995159670" />
+    <state width="1191" height="291" key="GridCell.Tab.1.right/0.23.1280.777@0.23.1280.777" timestamp="1639998737510" />
     <state x="125" y="23" key="SettingsEditor" timestamp="1639902343334">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="125" y="23" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1639902343334" />
-    <state width="616" height="388" key="XDebugger.FullValuePopup" timestamp="1639995039936">
+    <state width="616" height="388" key="XDebugger.FullValuePopup" timestamp="1639998736056">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="616" height="388" key="XDebugger.FullValuePopup/0.23.1280.777@0.23.1280.777" timestamp="1639995039936" />
+    <state width="616" height="388" key="XDebugger.FullValuePopup/0.23.1280.777@0.23.1280.777" timestamp="1639998736056" />
     <state x="291" y="246" key="com.intellij.ide.util.TipDialog" timestamp="1639992889374">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="291" y="246" key="com.intellij.ide.util.TipDialog/0.23.1280.777@0.23.1280.777" timestamp="1639992889374" />
-    <state x="641" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1639964879570">
+    <state x="641" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1639998675256">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="641" y="124" width="670" height="676" key="search.everywhere.popup/0.23.1280.777@0.23.1280.777" timestamp="1639964879570" />
+    <state x="641" y="124" width="670" height="676" key="search.everywhere.popup/0.23.1280.777@0.23.1280.777" timestamp="1639998675256" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -236,11 +237,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/webui/baseClass.java</url>
           <line>37</line>
           <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Universal/http/Http_Client.java</url>
-          <line>260</line>
-          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -251,6 +247,9 @@
         <watch expression="response.content" language="JAVA" />
         <watch expression="response" language="JAVA" />
         <watch expression="response.content" language="JAVA" />
+        <watch expression="resoucesPath" language="JAVA" />
+        <watch expression="Thread.currentThread().getContextClassLoader().getResource(&quot;log4j.properties&quot;).getPath()" language="JAVA" />
+        <watch expression="this.getClass().getClassLoader().getResource(&quot;log4j.properties&quot;).getPath()" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
