@@ -28,7 +28,6 @@ public class apiTest {
 
     @Test
     public void downloadImage(){
-
         System.out.println("Returns a simple PNG image.");
     }
 }

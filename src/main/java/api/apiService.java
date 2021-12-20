@@ -23,7 +23,7 @@ public class apiService {
     public void downloadImage(){
        String  imageAPI = APIConfiguration.APP_BASE_URL + APIConfiguration.imageAPI+"/png" ;
        System.out.println("Current API:"+imageAPI);
-       String response = Http_Client.downloadImg(imageAPI,null,"/Users/winkynan/Downloads/test.png");
+       String response = Http_Client.downloadImg(imageAPI,null,"src/main/resources/METE-INF/test.png");
         System.out.println("下载成功:"+response);
    }
 
